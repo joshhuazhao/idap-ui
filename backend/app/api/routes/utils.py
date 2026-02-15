@@ -4,8 +4,17 @@ from pydantic.networks import EmailStr
 from app.api.deps import get_current_active_superuser
 from app.models import Message
 from app.utils import generate_test_email, send_email
+import psutil
 
 router = APIRouter(prefix="/utils", tags=["utils"])
+
+
+@router.get("/cpu-usage/")
+def get_cpu_usage() -> dict[str, float]:
+    """
+    Get current CPU usage.
+    """
+    return {"cpu_usage": psutil.cpu_percent(interval=1)}
 
 
 @router.post(
