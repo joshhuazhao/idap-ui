@@ -21,22 +21,39 @@ dependencies = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "psutil",
 =======
     "pwdlib[argon2,bcrypt]>=0.3.0",
 >>>>>>> f6c2e534c3a04b123670119df7889ee73718235d
 =======
+=======
+>>>>>>> eeb3a88 (update python version and others)
     "pwdlib[argon2,bcrypt]>=0.3.0",
 =======
     "psutil",
 >>>>>>> 9cee647 (update python version and others)
+<<<<<<< HEAD
 >>>>>>> bb43562 (update python version and others)
 =======
+=======
+<<<<<<< HEAD
+    "psutil",
+=======
+    "pwdlib[argon2,bcrypt]>=0.3.0",
+>>>>>>> f6c2e534c3a04b123670119df7889ee73718235d
+>>>>>>> eeb3a88 (update python version and others)
+=======
     "pwdlib[argon2,bcrypt]>=0.3.0",
 =======
     "psutil",
 >>>>>>> 9cee647 (update python version and others)
+<<<<<<< HEAD
 >>>>>>> 524b2af (update python version and others)
+=======
+>>>>>>> bb43562 (update python version and others)
+>>>>>>> 94e565c (update python version and others)
+>>>>>>> eeb3a88 (update python version and others)
 ]
 
 [dependency-groups]

@@ -35,9 +35,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "@types/d3": "^7.4.3",
     "axios": "1.13.2",
 =======
+=======
+>>>>>>> eeb3a88 (update python version and others)
     "axios": "1.13.4",
 >>>>>>> f6c2e534c3a04b123670119df7889ee73718235d
 =======
@@ -50,9 +53,27 @@
     "axios": "1.13.2",
 >>>>>>> 9cee647 (update python version and others)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> bb43562 (update python version and others)
 =======
 >>>>>>> 524b2af (update python version and others)
+=======
+=======
+<<<<<<< HEAD
+    "@types/d3": "^7.4.3",
+    "axios": "1.13.2",
+=======
+    "axios": "1.13.4",
+>>>>>>> f6c2e534c3a04b123670119df7889ee73718235d
+=======
+    "axios": "1.13.4",
+=======
+    "@types/d3": "^7.4.3",
+    "axios": "1.13.2",
+>>>>>>> 9cee647 (update python version and others)
+>>>>>>> bb43562 (update python version and others)
+>>>>>>> 94e565c (update python version and others)
+>>>>>>> eeb3a88 (update python version and others)
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "d3": "^7.9.0",

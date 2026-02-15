@@ -7,11 +7,28 @@ ENV PYTHONUNBUFFERED=1
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+COPY --from=ghcr.io/astral-sh/uv:0.9.26 /uv /uvx /bin/
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 94e565c (update python version and others)
+>>>>>>> eeb3a88 (update python version and others)
 COPY --from=ghcr.io/astral-sh/uv:0.9.17 /uv /uvx /bin/
 
 # Place executables in the environment at the front of the path
 # Ref: https://docs.astral.sh/uv/guides/integration/docker/#using-the-environment
 ENV PATH="/app/.venv/bin:$PATH"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 9cee647 (update python version and others)
+=======
+=======
+COPY --from=ghcr.io/astral-sh/uv:0.9.26 /uv /uvx /bin/
+>>>>>>> f6c2e534c3a04b123670119df7889ee73718235d
+>>>>>>> eeb3a88 (update python version and others)
 =======
 COPY --from=ghcr.io/astral-sh/uv:0.9.26 /uv /uvx /bin/
 >>>>>>> f6c2e534c3a04b123670119df7889ee73718235d
@@ -28,9 +45,14 @@ COPY --from=ghcr.io/astral-sh/uv:0.9.17 /uv /uvx /bin/
 ENV PATH="/app/.venv/bin:$PATH"
 >>>>>>> 9cee647 (update python version and others)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> bb43562 (update python version and others)
 =======
 >>>>>>> 524b2af (update python version and others)
+=======
+>>>>>>> bb43562 (update python version and others)
+>>>>>>> 94e565c (update python version and others)
+>>>>>>> eeb3a88 (update python version and others)
 
 # Compile bytecode
 # Ref: https://docs.astral.sh/uv/guides/integration/docker/#compiling-bytecode

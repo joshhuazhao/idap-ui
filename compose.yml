@@ -4,9 +4,18 @@ services:
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD:docker-compose.yml
+=======
+>>>>>>> eeb3a88 (update python version and others)
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD:compose.yml
   db:
+<<<<<<< HEAD
     image: postgres:18      
+=======
+    image: postgres:18
+>>>>>>> eeb3a88 (update python version and others)
     restart: always
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
@@ -25,7 +34,11 @@ services:
       - POSTGRES_DB=${POSTGRES_DB?Variable not set}
 =======
 >>>>>>> bb43562 (update python version and others)
+<<<<<<< HEAD
 
+=======
+>>>>>>> 94e565c (update python version and others)
+>>>>>>> eeb3a88 (update python version and others)
   # db:
   #   image: postgres:17
   #   restart: always
@@ -44,6 +57,7 @@ services:
   #     - POSTGRES_PASSWORD=${POSTGRES_PASSWORD?Variable not set}
   #     - POSTGRES_USER=${POSTGRES_USER?Variable not set}
   #     - POSTGRES_DB=${POSTGRES_DB?Variable not set}
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 9cee647 (update python version and others):docker-compose.yml
@@ -99,6 +113,8 @@ services:
 >>>>>>> 524b2af (update python version and others)
 =======
 =======
+>>>>>>> eeb3a88 (update python version and others)
+=======
   db:
     image: postgres:18
     restart: always
@@ -118,7 +134,16 @@ services:
       - POSTGRES_USER=${POSTGRES_USER?Variable not set}
       - POSTGRES_DB=${POSTGRES_DB?Variable not set}
 >>>>>>> f6c2e534c3a04b123670119df7889ee73718235d:compose.yml
+<<<<<<< HEAD
 >>>>>>> 3bad1cc (keep compose file modified)
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 9cee647 (update python version and others):docker-compose.yml
+>>>>>>> bb43562 (update python version and others)
+>>>>>>> 94e565c (update python version and others)
+>>>>>>> eeb3a88 (update python version and others)
 
   # adminer:
   #   image: adminer
