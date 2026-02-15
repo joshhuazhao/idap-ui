@@ -19,10 +19,17 @@ dependencies = [
     "sentry-sdk[fastapi]>=2.0.0,<3.0.0",
     "pyjwt<3.0.0,>=2.8.0",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "psutil",
 =======
     "pwdlib[argon2,bcrypt]>=0.3.0",
 >>>>>>> f6c2e534c3a04b123670119df7889ee73718235d
+=======
+    "pwdlib[argon2,bcrypt]>=0.3.0",
+=======
+    "psutil",
+>>>>>>> 9cee647 (update python version and others)
+>>>>>>> bb43562 (update python version and others)
 ]
 
 [dependency-groups]
