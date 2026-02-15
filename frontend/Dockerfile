@@ -25,7 +25,6 @@ ARG VITE_API_URL
 RUN bun run build
 >>>>>>> f6c2e534c3a04b123670119df7889ee73718235d
 
-
 # Stage 1, based on Nginx, to have only the compiled app, ready for production with Nginx
 FROM nginx:1
 
