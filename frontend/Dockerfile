@@ -54,8 +54,11 @@ RUN bun run build
 RUN pnpm run build
 >>>>>>> 9cee647 (update python version and others)
 
+<<<<<<< HEAD
 >>>>>>> bb43562 (update python version and others)
 
+=======
+>>>>>>> 0e16d6d (update python version and others)
 # Stage 1, based on Nginx, to have only the compiled app, ready for production with Nginx
 FROM nginx:1
 
