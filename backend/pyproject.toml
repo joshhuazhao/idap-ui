@@ -20,6 +20,7 @@ dependencies = [
     "pyjwt<3.0.0,>=2.8.0",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "psutil",
 =======
     "pwdlib[argon2,bcrypt]>=0.3.0",
@@ -30,6 +31,12 @@ dependencies = [
     "psutil",
 >>>>>>> 9cee647 (update python version and others)
 >>>>>>> bb43562 (update python version and others)
+=======
+    "pwdlib[argon2,bcrypt]>=0.3.0",
+=======
+    "psutil",
+>>>>>>> 9cee647 (update python version and others)
+>>>>>>> 524b2af (update python version and others)
 ]
 
 [dependency-groups]

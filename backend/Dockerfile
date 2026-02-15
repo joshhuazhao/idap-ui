@@ -6,6 +6,7 @@ ENV PYTHONUNBUFFERED=1
 # Ref: https://docs.astral.sh/uv/guides/integration/docker/#installing-uv
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 COPY --from=ghcr.io/astral-sh/uv:0.9.17 /uv /uvx /bin/
 
 # Place executables in the environment at the front of the path
@@ -17,13 +18,19 @@ COPY --from=ghcr.io/astral-sh/uv:0.9.26 /uv /uvx /bin/
 =======
 COPY --from=ghcr.io/astral-sh/uv:0.9.26 /uv /uvx /bin/
 =======
+COPY --from=ghcr.io/astral-sh/uv:0.9.26 /uv /uvx /bin/
+>>>>>>> 524b2af (update python version and others)
+=======
 COPY --from=ghcr.io/astral-sh/uv:0.9.17 /uv /uvx /bin/
 
 # Place executables in the environment at the front of the path
 # Ref: https://docs.astral.sh/uv/guides/integration/docker/#using-the-environment
 ENV PATH="/app/.venv/bin:$PATH"
 >>>>>>> 9cee647 (update python version and others)
+<<<<<<< HEAD
 >>>>>>> bb43562 (update python version and others)
+=======
+>>>>>>> 524b2af (update python version and others)
 
 # Compile bytecode
 # Ref: https://docs.astral.sh/uv/guides/integration/docker/#compiling-bytecode

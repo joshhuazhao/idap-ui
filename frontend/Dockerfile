@@ -7,6 +7,7 @@ COPY package.json bun.lock /app/
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 RUN npm install -g pnpm
 RUN pnpm install
 =======
@@ -15,10 +16,16 @@ COPY frontend/package.json /app/frontend/
 =======
 COPY frontend/package.json /app/frontend/
 =======
+COPY frontend/package.json /app/frontend/
+>>>>>>> 524b2af (update python version and others)
+=======
 RUN npm install -g pnpm
 RUN pnpm install
 >>>>>>> 9cee647 (update python version and others)
+<<<<<<< HEAD
 >>>>>>> bb43562 (update python version and others)
+=======
+>>>>>>> 524b2af (update python version and others)
 
 WORKDIR /app/frontend
 
@@ -26,17 +33,23 @@ RUN bun install
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 RUN pnpm run build
 =======
 =======
 >>>>>>> bb43562 (update python version and others)
+=======
+>>>>>>> 524b2af (update python version and others)
 COPY ./frontend /app/frontend
 ARG VITE_API_URL
 
 RUN bun run build
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f6c2e534c3a04b123670119df7889ee73718235d
 =======
+=======
+>>>>>>> 524b2af (update python version and others)
 =======
 RUN pnpm run build
 >>>>>>> 9cee647 (update python version and others)

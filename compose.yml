@@ -1,6 +1,7 @@
 services:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD:compose.yml
   db:
@@ -46,6 +47,9 @@ services:
 =======
 >>>>>>> 9cee647 (update python version and others):docker-compose.yml
 >>>>>>> bb43562 (update python version and others)
+=======
+<<<<<<< HEAD:compose.yml
+>>>>>>> 524b2af (update python version and others)
   db:
     image: postgres:18
     restart: always
@@ -64,7 +68,30 @@ services:
       - POSTGRES_PASSWORD=${POSTGRES_PASSWORD?Variable not set}
       - POSTGRES_USER=${POSTGRES_USER?Variable not set}
       - POSTGRES_DB=${POSTGRES_DB?Variable not set}
+<<<<<<< HEAD
 >>>>>>> f6c2e534c3a04b123670119df7889ee73718235d:compose.yml
+=======
+=======
+  # db:
+  #   image: postgres:17
+  #   restart: always
+  #   healthcheck:
+  #     test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
+  #     interval: 10s
+  #     retries: 5
+  #     start_period: 30s
+  #     timeout: 10s
+  #   volumes:
+  #     - app-db-data:/var/lib/postgresql/data/pgdata
+  #   env_file:
+  #     - .env
+  #   environment:
+  #     - PGDATA=/var/lib/postgresql/data/pgdata
+  #     - POSTGRES_PASSWORD=${POSTGRES_PASSWORD?Variable not set}
+  #     - POSTGRES_USER=${POSTGRES_USER?Variable not set}
+  #     - POSTGRES_DB=${POSTGRES_DB?Variable not set}
+>>>>>>> 9cee647 (update python version and others):docker-compose.yml
+>>>>>>> 524b2af (update python version and others)
 
   # adminer:
   #   image: adminer

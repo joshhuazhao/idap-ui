@@ -7,6 +7,7 @@ services:
   # DOMAIN=localhost.tiangolo.com
   proxy:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:docker-compose.override.yml
     image: traefik
 =======
@@ -19,6 +20,13 @@ services:
     image: traefik
 >>>>>>> 9cee647 (update python version and others):docker-compose.override.yml
 >>>>>>> bb43562 (update python version and others)
+=======
+<<<<<<< HEAD:compose.override.yml
+    image: traefik:3.6
+=======
+    image: traefik
+>>>>>>> 9cee647 (update python version and others):docker-compose.override.yml
+>>>>>>> 524b2af (update python version and others)
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     ports:
