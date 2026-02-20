@@ -9,7 +9,7 @@ export const Route = createFileRoute("/_layout/")({
   head: () => ({
     meta: [
       {
-        title: "Dashboard - FastAPI Cloud",
+        title: "Dashboard - FastAPI Template",
       },
     ],
   }),
