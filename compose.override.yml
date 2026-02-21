@@ -6,45 +6,7 @@ services:
   # etc. To enable it, update .env, set:
   # DOMAIN=localhost.tiangolo.com
   proxy:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD:docker-compose.override.yml
-    image: traefik
-=======
     image: traefik:3.6
->>>>>>> f6c2e534c3a04b123670119df7889ee73718235d:compose.override.yml
-=======
-=======
->>>>>>> eeb3a88 (update python version and others)
-<<<<<<< HEAD:compose.override.yml
-    image: traefik:3.6
-=======
-    image: traefik
->>>>>>> 9cee647 (update python version and others):docker-compose.override.yml
-<<<<<<< HEAD
->>>>>>> bb43562 (update python version and others)
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD:docker-compose.override.yml
-    image: traefik
-=======
-    image: traefik:3.6
->>>>>>> f6c2e534c3a04b123670119df7889ee73718235d:compose.override.yml
->>>>>>> eeb3a88 (update python version and others)
-=======
-<<<<<<< HEAD:compose.override.yml
-    image: traefik:3.6
-=======
-    image: traefik
->>>>>>> 9cee647 (update python version and others):docker-compose.override.yml
-<<<<<<< HEAD
->>>>>>> 524b2af (update python version and others)
-=======
->>>>>>> bb43562 (update python version and others)
->>>>>>> 94e565c (update python version and others)
->>>>>>> eeb3a88 (update python version and others)
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     ports:
